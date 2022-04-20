@@ -12,11 +12,11 @@
   
   &>div{
     height:100vh;
-    border: 1px solid black;
+    // border: 1px solid black;
   }
   
   &>div:nth-child(1){
-    background-color: #a002a2;
+    background-color: #ffffff;
     width:25vw;
     position: absolute;
     z-index: 4;
@@ -33,7 +33,7 @@
 
 
   &>div:nth-child(2){
-    background-color: #a2a002;
+    background-color: #ffffff;
     position: absolute;
     width:15vw;
     left:25vw;
@@ -53,7 +53,7 @@
 
 
   &>div:nth-child(3){
-    background-color: #a2a2a2;
+    background-color: #ffffff;
     position: absolute;
     left:40vw;
     z-index: 2;
@@ -102,7 +102,7 @@
 
   &>div:nth-child(5){
     width:35vw;
-    background-color: #4aa;
+    background-color: #ffffff;
     position: absolute;
     left:65vw;
     z-index: 1;

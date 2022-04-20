@@ -1,0 +1,33 @@
+*{margin:0; padding :0; box-sizing: border-box;}
+#container{
+  width:100vw;
+  height:100vh;
+  background-color: #ccc;
+
+  &>div{
+    height:100vh;
+    width:30vw;
+    border: 1px solid black;
+  }
+  
+  &>div:nth-child(1){
+    background-color: #a002a2;
+    position: absolute;
+  }
+  &>div:nth-child(2){
+    background-color: #a2a002;
+    position: absolute;
+    left:25vw;
+  }
+  &>div:nth-child(3){
+    background-color: #a2a2a2;
+    position: absolute;
+    left:40vw;
+  }
+  &>div:nth-child(4){
+    background-color: #4aa;
+    position: absolute;
+    left:70vw;
+
+  }
+}
